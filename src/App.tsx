@@ -7,6 +7,8 @@ import { JsonGroovyConverter } from './tools/JsonGroovyConverter';
 import { JwtDecoder } from './tools/JwtDecoder';
 import { RegexTester } from './tools/RegexTester';
 import { PropertyExplorer } from './tools/PropertyExplorer';
+import { RestTemplateConverter } from './tools/RestTemplateConverter';
+import { CurlConverter } from './tools/CurlConverter';
 import { Hammer } from 'lucide-react';
 
 function App() {
@@ -49,6 +51,12 @@ function App() {
           </section>
           <section>
             <PropertyExplorer />
+          </section>
+          <section>
+            <RestTemplateConverter />
+          </section>
+          <section>
+            <CurlConverter />
           </section>
         </main>
       </div>
